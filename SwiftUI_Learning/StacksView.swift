@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct StacksView: View {
+    
+    // MARK: - Body
+    
     var body: some View {
         VStack {
             Text("Hello")
@@ -32,7 +35,7 @@ struct StacksView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct StacksView_Previews: PreviewProvider {
     static var previews: some View {
         StacksView()
     }

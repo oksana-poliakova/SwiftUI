@@ -36,7 +36,7 @@ struct ImagesGradientsView: View {
     }
 }
 
-struct ScreenWithImageAndButton_Previews: PreviewProvider {
+struct ImagesGradientsView_Previews: PreviewProvider {
     static var previews: some View {
         ImagesGradientsView()
     }

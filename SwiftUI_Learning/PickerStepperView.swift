@@ -54,7 +54,7 @@ struct PickerStepperView: View {
     }
 }
 
-struct Picker_And_Stepper_View_Previews: PreviewProvider {
+struct PickerStepperView_Previews: PreviewProvider {
     static var previews: some View {
         PickerStepperView()
     }

@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ToggleSliderButtonView: View {
     
+    // MARK: - Properties
+    
     @State private var showHello = true
     @State private var showDetails = false
     @State private var password = ""
     @State private var celsius: Double = 0
+    
+    // MARK: - Body
     
     var body: some View {
         VStack {
@@ -58,13 +62,12 @@ struct ToggleSliderButtonView: View {
                 Text("Details are here...")
                     .foregroundColor(.green)
                     .bold()
-                
             }
         }
     }
 }
 
-struct States__Previews: PreviewProvider {
+struct ToggleSliderButtonView_Previews: PreviewProvider {
     static var previews: some View {
         ToggleSliderButtonView()
     }

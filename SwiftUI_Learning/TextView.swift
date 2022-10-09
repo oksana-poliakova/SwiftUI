@@ -41,7 +41,7 @@ struct TextView: View {
     }
 }
 
-struct ScreenWithText_Previews: PreviewProvider {
+struct TextView_Previews: PreviewProvider {
     static var previews: some View {
         TextView()
     }

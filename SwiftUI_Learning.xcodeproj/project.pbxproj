@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
-		FAB8B1FE28F2C5E800D0839B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* ContentView.swift */; };
+		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
 		FAB8B20328F2C5EA00D0839B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B20228F2C5EA00D0839B /* Preview Assets.xcassets */; };
+		FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B20D28F2D68800D0839B /* TextView.swift */; };
+		FAB8B21028F2DC8400D0839B /* ImagesGradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */; };
+		FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStepperView.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
-		FAB8B1FD28F2C5E800D0839B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 		FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB8B20228F2C5EA00D0839B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAB8B20D28F2D68800D0839B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGradientsView.swift; sourceTree = "<group>"; };
+		FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSliderButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */,
-				FAB8B1FD28F2C5E800D0839B /* ContentView.swift */,
+				FAB8B1FD28F2C5E800D0839B /* StacksView.swift */,
+				FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */,
+				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
+				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
+				FAB8B20D28F2D68800D0839B /* TextView.swift */,
 				FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */,
 				FAB8B20128F2C5EA00D0839B /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB8B1FE28F2C5E800D0839B /* ContentView.swift in Sources */,
+				FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */,
+				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
+				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
+				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
+				FAB8B21028F2DC8400D0839B /* ImagesGradientsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
