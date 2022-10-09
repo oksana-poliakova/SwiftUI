@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StacksView: View {
     var body: some View {
         VStack {
             Text("Hello")
@@ -34,6 +34,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        StacksView()
     }
 }
