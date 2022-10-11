@@ -20,6 +20,9 @@
 		FACB3CA928F482C800D84139 /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CA828F482C800D84139 /* DynamicListView.swift */; };
 		FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CAA28F483B800D84139 /* ListWithSections.swift */; };
 		FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */; };
+		FACB3CAF28F5CD8300D84139 /* TestTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CAE28F5CD8300D84139 /* TestTabView.swift */; };
+		FACB3CB128F5D25200D84139 /* TestFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB028F5D25200D84139 /* TestFormView.swift */; };
+		FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		FACB3CA828F482C800D84139 /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 		FACB3CAA28F483B800D84139 /* ListWithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithSections.swift; sourceTree = "<group>"; };
 		FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationView.swift; sourceTree = "<group>"; };
+		FACB3CAE28F5CD8300D84139 /* TestTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabView.swift; sourceTree = "<group>"; };
+		FACB3CB028F5D25200D84139 /* TestFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFormView.swift; sourceTree = "<group>"; };
+		FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +81,10 @@
 				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
 				FACB3CA428F4780000D84139 /* GestureView.swift */,
 				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
+				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
+				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
+				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
 				FACB3CA828F482C800D84139 /* DynamicListView.swift */,
 				FAB8B20D28F2D68800D0839B /* TextView.swift */,
 				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
@@ -168,13 +177,16 @@
 				FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */,
 				FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */,
 				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
+				FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
 				FACB3CA528F4780000D84139 /* GestureView.swift in Sources */,
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
 				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
 				FAB8B21028F2DC8400D0839B /* ImagesGradientsView.swift in Sources */,
+				FACB3CAF28F5CD8300D84139 /* TestTabView.swift in Sources */,
 				FACB3CA928F482C800D84139 /* DynamicListView.swift in Sources */,
+				FACB3CB128F5D25200D84139 /* TestFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
