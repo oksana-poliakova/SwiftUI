@@ -28,6 +28,8 @@
 		FACB3CB928F6DC5E00D84139 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */; };
 		FACB3CBB28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CBA28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift */; };
 		FACB3CBE28F6F59800D84139 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CBD28F6F59800D84139 /* UserSettings.swift */; };
+		FACB3CCA28F710A600D84139 /* NavigationLinkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CC928F710A600D84139 /* NavigationLinkTest.swift */; };
+		FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CCB28F710E300D84139 /* NavigationSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		FACB3CBA28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedPublishedEnvironmentObjects.swift; sourceTree = "<group>"; };
 		FACB3CBD28F6F59800D84139 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		FACB3CC928F710A600D84139 /* NavigationLinkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkTest.swift; sourceTree = "<group>"; };
+		FACB3CCB28F710E300D84139 /* NavigationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,24 +89,11 @@
 		FAB8B1FA28F2C5E800D0839B /* SwiftUI_Learning */ = {
 			isa = PBXGroup;
 			children = (
-				FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */,
-				FAB8B1FD28F2C5E800D0839B /* StacksView.swift */,
-				FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */,
-				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
-				FACB3CA428F4780000D84139 /* GestureView.swift */,
-				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
-				FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */,
-				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
+				FACB3CC428F6F84600D84139 /* Application */,
+				FACB3CBF28F6F7E300D84139 /* UIElements */,
+				FACB3CC028F6F80900D84139 /* PracticalTasks */,
 				FACB3CBC28F6F56A00D84139 /* Observed Published Objects */,
-				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
-				FACB3CB428F6C57400D84139 /* Alerts.swift */,
-				FACB3CA628F47DC500D84139 /* ListView.swift */,
-				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
-				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
-				FACB3CA828F482C800D84139 /* DynamicListView.swift */,
-				FAB8B20D28F2D68800D0839B /* TextView.swift */,
-				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
-				FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */,
+				FACB3CC128F6F82B00D84139 /* Navigation */,
 				FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */,
 				FAB8B20128F2C5EA00D0839B /* Preview Content */,
 			);
@@ -124,6 +115,53 @@
 				FACB3CBD28F6F59800D84139 /* UserSettings.swift */,
 			);
 			path = "Observed Published Objects";
+			sourceTree = "<group>";
+		};
+		FACB3CBF28F6F7E300D84139 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
+				FACB3CB428F6C57400D84139 /* Alerts.swift */,
+				FACB3CA628F47DC500D84139 /* ListView.swift */,
+				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
+				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
+				FACB3CA828F482C800D84139 /* DynamicListView.swift */,
+				FAB8B20D28F2D68800D0839B /* TextView.swift */,
+				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
+				FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */,
+				FAB8B1FD28F2C5E800D0839B /* StacksView.swift */,
+				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
+				FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */,
+				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
+				FACB3CA428F4780000D84139 /* GestureView.swift */,
+				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		FACB3CC028F6F80900D84139 /* PracticalTasks */ = {
+			isa = PBXGroup;
+			children = (
+				FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */,
+			);
+			path = PracticalTasks;
+			sourceTree = "<group>";
+		};
+		FACB3CC128F6F82B00D84139 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FACB3CC928F710A600D84139 /* NavigationLinkTest.swift */,
+				FACB3CCB28F710E300D84139 /* NavigationSheet.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FACB3CC428F6F84600D84139 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +241,7 @@
 				FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */,
 				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
 				FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */,
+				FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
 				FACB3CA528F4780000D84139 /* GestureView.swift in Sources */,
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
@@ -214,6 +253,7 @@
 				FACB3CAF28F5CD8300D84139 /* TestTabView.swift in Sources */,
 				FACB3CA928F482C800D84139 /* DynamicListView.swift in Sources */,
 				FACB3CBE28F6F59800D84139 /* UserSettings.swift in Sources */,
+				FACB3CCA28F710A600D84139 /* NavigationLinkTest.swift in Sources */,
 				FACB3CB128F5D25200D84139 /* TestFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
