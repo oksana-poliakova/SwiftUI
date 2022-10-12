@@ -26,6 +26,8 @@
 		FACB3CB528F6C57400D84139 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB428F6C57400D84139 /* Alerts.swift */; };
 		FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */; };
 		FACB3CB928F6DC5E00D84139 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */; };
+		FACB3CBB28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CBA28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift */; };
+		FACB3CBE28F6F59800D84139 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CBD28F6F59800D84139 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		FACB3CB428F6C57400D84139 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGame.swift; sourceTree = "<group>"; };
 		FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
+		FACB3CBA28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedPublishedEnvironmentObjects.swift; sourceTree = "<group>"; };
+		FACB3CBD28F6F59800D84139 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
 				FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */,
 				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
+				FACB3CBC28F6F56A00D84139 /* Observed Published Objects */,
 				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
 				FACB3CB428F6C57400D84139 /* Alerts.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
@@ -110,6 +115,15 @@
 				FAB8B20228F2C5EA00D0839B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FACB3CBC28F6F56A00D84139 /* Observed Published Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FACB3CBA28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift */,
+				FACB3CBD28F6F59800D84139 /* UserSettings.swift */,
+			);
+			path = "Observed Published Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +209,11 @@
 				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
 				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
+				FACB3CBB28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift in Sources */,
 				FAB8B21028F2DC8400D0839B /* ImagesGradientsView.swift in Sources */,
 				FACB3CAF28F5CD8300D84139 /* TestTabView.swift in Sources */,
 				FACB3CA928F482C800D84139 /* DynamicListView.swift in Sources */,
+				FACB3CBE28F6F59800D84139 /* UserSettings.swift in Sources */,
 				FACB3CB128F5D25200D84139 /* TestFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
