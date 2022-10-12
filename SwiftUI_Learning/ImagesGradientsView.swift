@@ -19,6 +19,7 @@ struct ImagesGradientsView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(Capsule())
+                .shadow(color: .blue, radius: 10)
             Spacer()
             Circle()
                 .fill(gradient)

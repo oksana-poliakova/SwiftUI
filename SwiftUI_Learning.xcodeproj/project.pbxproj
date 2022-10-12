@@ -24,6 +24,7 @@
 		FACB3CB128F5D25200D84139 /* TestFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB028F5D25200D84139 /* TestFormView.swift */; };
 		FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */; };
 		FACB3CB528F6C57400D84139 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB428F6C57400D84139 /* Alerts.swift */; };
+		FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		FACB3CB028F5D25200D84139 /* TestFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFormView.swift; sourceTree = "<group>"; };
 		FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCalculatorView.swift; sourceTree = "<group>"; };
 		FACB3CB428F6C57400D84139 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
 				FACB3CA428F4780000D84139 /* GestureView.swift */,
 				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
+				FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */,
 				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
 				FACB3CB428F6C57400D84139 /* Alerts.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
@@ -186,6 +189,7 @@
 				FACB3CA528F4780000D84139 /* GestureView.swift in Sources */,
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
 				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
+				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
 				FAB8B21028F2DC8400D0839B /* ImagesGradientsView.swift in Sources */,
 				FACB3CAF28F5CD8300D84139 /* TestTabView.swift in Sources */,
@@ -316,9 +320,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = A55B4JSB5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -333,6 +339,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oksana-Poliakova.SwiftUI-Learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,9 +351,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = A55B4JSB5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -361,6 +370,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oksana-Poliakova.SwiftUI-Learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
