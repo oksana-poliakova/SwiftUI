@@ -25,6 +25,7 @@
 		FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */; };
 		FACB3CB528F6C57400D84139 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB428F6C57400D84139 /* Alerts.swift */; };
 		FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */; };
+		FACB3CB928F6DC5E00D84139 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCalculatorView.swift; sourceTree = "<group>"; };
 		FACB3CB428F6C57400D84139 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGame.swift; sourceTree = "<group>"; };
+		FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				FACB3CA428F4780000D84139 /* GestureView.swift */,
 				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
 				FACB3CB628F6CD8000D84139 /* FlagQuizGame.swift */,
+				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
 				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
 				FACB3CB428F6C57400D84139 /* Alerts.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
@@ -181,6 +184,7 @@
 			files = (
 				FACB3CA728F47DC500D84139 /* ListView.swift in Sources */,
 				FACB3CB528F6C57400D84139 /* Alerts.swift in Sources */,
+				FACB3CB928F6DC5E00D84139 /* TestModifiers.swift in Sources */,
 				FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */,
 				FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */,
 				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
