@@ -17,6 +17,8 @@ struct GestureView: View {
                     print("One tap")
                 }
             
+            ContentTestView(backgroundColor: .green, count: 20, title: "Peaches", country: .USA)
+            
             Image(systemName: "pawprint")
                 .foregroundColor(.brown)
                 .font(.largeTitle)
