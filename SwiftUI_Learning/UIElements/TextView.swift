@@ -22,6 +22,7 @@ struct TextView: View {
                 .bold()
                 .multilineTextAlignment(.center)
                 .lineSpacing(5)
+                .baselineOffset(5)
                 .italic()
                 .underline()
                 .shadow(radius: 20)
@@ -35,8 +36,8 @@ struct TextView: View {
                 )
                 .padding(.bottom, 50)
                 .foregroundColor(.white)
-                .font(.headline)
-                .bold()
+                .font(.system(size: 24, weight: .bold, design: .rounded))
+                .underline()
         }
     }
 }
