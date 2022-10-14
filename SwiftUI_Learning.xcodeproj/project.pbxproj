@@ -10,6 +10,7 @@
 		FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CC28F8133A00A6B18F /* ContentView.swift */; };
 		FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CE28F8171400A6B18F /* MyCostsApp.swift */; };
 		FA5671D328F8209400A6B18F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D228F8209400A6B18F /* AddView.swift */; };
+		FA5671D528F98DED00A6B18F /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D428F98DED00A6B18F /* TestView.swift */; };
 		FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
@@ -39,6 +40,7 @@
 		FA5671CC28F8133A00A6B18F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5671CE28F8171400A6B18F /* MyCostsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCostsApp.swift; sourceTree = "<group>"; };
 		FA5671D228F8209400A6B18F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		FA5671D428F98DED00A6B18F /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStepperView.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
 				FACB3CB428F6C57400D84139 /* Alerts.swift */,
+				FA5671D428F98DED00A6B18F /* TestView.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
 				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
 				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACB3CA728F47DC500D84139 /* ListView.swift in Sources */,
+				FA5671D528F98DED00A6B18F /* TestView.swift in Sources */,
 				FACB3CB528F6C57400D84139 /* Alerts.swift in Sources */,
 				FACB3CB928F6DC5E00D84139 /* TestModifiers.swift in Sources */,
 				FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */,
