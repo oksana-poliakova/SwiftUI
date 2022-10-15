@@ -16,6 +16,7 @@
 		FA9EA0C828F9B3BB00279458 /* ContextMenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0C728F9B3BB00279458 /* ContextMenuTest.swift */; };
 		FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0CA28F9BB2600279458 /* ColorsUsage.swift */; };
 		FA9EA0CE28F9C57900279458 /* ContentTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0CD28F9C57900279458 /* ContentTestView.swift */; };
+		FA9EA0D228FB015500279458 /* ScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D128FB015500279458 /* ScrollViewTest.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		FA9EA0C728F9B3BB00279458 /* ContextMenuTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuTest.swift; sourceTree = "<group>"; };
 		FA9EA0CA28F9BB2600279458 /* ColorsUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUsage.swift; sourceTree = "<group>"; };
 		FA9EA0CD28F9C57900279458 /* ContentTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTestView.swift; sourceTree = "<group>"; };
+		FA9EA0D128FB015500279458 /* ScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
 				FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */,
 				FAB8B1FD28F2C5E800D0839B /* StacksView.swift */,
+				FA9EA0D128FB015500279458 /* ScrollViewTest.swift */,
 				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
 				FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */,
 				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
@@ -329,6 +332,7 @@
 				FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */,
 				FACB3CBB28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift in Sources */,
 				FAB8B21028F2DC8400D0839B /* ImagesGradientsView.swift in Sources */,
+				FA9EA0D228FB015500279458 /* ScrollViewTest.swift in Sources */,
 				FACB3CAF28F5CD8300D84139 /* TestTabView.swift in Sources */,
 				FACB3CA928F482C800D84139 /* DynamicListView.swift in Sources */,
 				FA5671D328F8209400A6B18F /* AddView.swift in Sources */,
