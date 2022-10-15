@@ -14,6 +14,7 @@ struct CustomButton: View {
     
     var body: some View {
         VStack {
+            textFromSubview
             Text("\(title)")
                 .padding(.bottom, 30)
             Button {
@@ -30,13 +31,28 @@ struct CustomButton: View {
                             .foregroundColor(heartBackground)
                     }
             } .animation(.easeInOut, value: 5)
+            
+            imageFromSubview
+                .padding(.top, 50)
         }
     }
     
-    func changeHeartButton() {
-        
+    var textFromSubview: some View {
+        Text("It's subview")
+            .foregroundColor(.red)
+            .bold()
+            .font(.largeTitle)
+    }
+    
+    var imageFromSubview: some View {
+        Image(systemName: "ladybug")
+            .foregroundColor(.red)
+            .font(.largeTitle)
     }
 }
+
+
+
 
 struct CustomButton_Previews: PreviewProvider {
     static var previews: some View {
