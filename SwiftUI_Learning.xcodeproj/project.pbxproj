@@ -17,6 +17,8 @@
 		FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0CA28F9BB2600279458 /* ColorsUsage.swift */; };
 		FA9EA0CE28F9C57900279458 /* ContentTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0CD28F9C57900279458 /* ContentTestView.swift */; };
 		FA9EA0D228FB015500279458 /* ScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D128FB015500279458 /* ScrollViewTest.swift */; };
+		FA9EA0D528FB038100279458 /* LazyGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D428FB038100279458 /* LazyGrids.swift */; };
+		FA9EA0D728FB13AA00279458 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D628FB13AA00279458 /* CustomButton.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 		FA9EA0CA28F9BB2600279458 /* ColorsUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUsage.swift; sourceTree = "<group>"; };
 		FA9EA0CD28F9C57900279458 /* ContentTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTestView.swift; sourceTree = "<group>"; };
 		FA9EA0D128FB015500279458 /* ScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest.swift; sourceTree = "<group>"; };
+		FA9EA0D428FB038100279458 /* LazyGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids.swift; sourceTree = "<group>"; };
+		FA9EA0D628FB13AA00279458 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -137,6 +141,14 @@
 			path = "Inits and Enums";
 			sourceTree = "<group>";
 		};
+		FA9EA0D328FB02E600279458 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA0D428FB038100279458 /* LazyGrids.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
 		FAB8B1EF28F2C5E800D0839B = {
 			isa = PBXGroup;
 			children = (
@@ -191,10 +203,12 @@
 		FACB3CBF28F6F7E300D84139 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				FA9EA0D328FB02E600279458 /* Grids */,
 				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
 				FACB3CB428F6C57400D84139 /* Alerts.swift */,
 				FA5671D428F98DED00A6B18F /* TestView.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
+				FA9EA0D628FB13AA00279458 /* CustomButton.swift */,
 				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
 				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
 				FACB3CA828F482C800D84139 /* DynamicListView.swift */,
@@ -311,7 +325,9 @@
 			files = (
 				FA9EA0C828F9B3BB00279458 /* ContextMenuTest.swift in Sources */,
 				FA5671D828F99F7700A6B18F /* SwiftUIView.swift in Sources */,
+				FA9EA0D528FB038100279458 /* LazyGrids.swift in Sources */,
 				FA9EA0CE28F9C57900279458 /* ContentTestView.swift in Sources */,
+				FA9EA0D728FB13AA00279458 /* CustomButton.swift in Sources */,
 				FACB3CA728F47DC500D84139 /* ListView.swift in Sources */,
 				FA5671D528F98DED00A6B18F /* TestView.swift in Sources */,
 				FACB3CB528F6C57400D84139 /* Alerts.swift in Sources */,
