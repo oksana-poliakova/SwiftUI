@@ -32,10 +32,12 @@ struct CustomButton: View {
                     }
             } .animation(.easeInOut, value: 5)
             
-            imageFromSubview
+            ImageItemView()
                 .padding(.top, 50)
         }
     }
+    
+    // Extracting from body
     
     var textFromSubview: some View {
         Text("It's subview")
@@ -43,16 +45,17 @@ struct CustomButton: View {
             .bold()
             .font(.largeTitle)
     }
-    
-    var imageFromSubview: some View {
+}
+
+// Extracting outside the body
+
+struct ImageItemView: View {
+    var body: some View {
         Image(systemName: "ladybug")
             .foregroundColor(.red)
             .font(.largeTitle)
     }
 }
-
-
-
 
 struct CustomButton_Previews: PreviewProvider {
     static var previews: some View {
