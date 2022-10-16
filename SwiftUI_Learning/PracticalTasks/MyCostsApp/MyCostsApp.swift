@@ -43,37 +43,62 @@ struct MyCostsApp: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(expenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
-                            Text(item.type)
+                // section with the header like collapse, expandable list
+                Section(
+                    header:
+                        HStack {
+                            Text("First section")
+                            Image(systemName: "ladybug")
                         }
-                        Spacer()
-                        Text("$\(item.amount)")
+                        .foregroundColor(.blue)
+                        .font(.headline)
+                ){
+                    ForEach(expenses.items) { item in
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(item.name)
+                                    .font(.headline)
+                                Text(item.type)
+                            }
+                            Spacer()
+                            Text("$\(item.amount)")
+                        }
                     }
+                    .onDelete(perform: removeItems)
+                    .onMove(perform: moveItems)
                 }
-                .onDelete(perform: removeItems)
             }
+            
+            // Navigation title and items
             .navigationTitle("My costs")
+            
+            .navigationBarItems(leading: EditButton()
+                .font(.headline)
+            )
             .navigationBarItems(trailing:
                 Button(action: {
                     self.showingAddItem = true
             }) {
                 Image(systemName: "plus")
+                    .font(.headline)
             }) .sheet(isPresented: $showingAddItem) {
                 AddView(expenses: expenses)
             }
-        } 
+        }
+        .accentColor(.blue)
     }
     
-    // Remove Items
+    // Remove items
     func removeItems(as offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
     }
+    
+    // Move items
+    
+    func moveItems(indices: IndexSet, newOffset: Int) {
+        expenses.items.move(fromOffsets: indices, toOffset: newOffset)
+    }
 }
-
 
 struct MyCostsApp_Previews: PreviewProvider {
     static var previews: some View {
