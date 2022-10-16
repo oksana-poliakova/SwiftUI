@@ -22,6 +22,7 @@
 		FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */; };
 		FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */; };
 		FA9EA0DD28FC212300279458 /* PopoverWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DC28FC212300279458 /* PopoverWindow.swift */; };
+		FA9EA0E028FC2E4300279458 /* ActionSheetInthePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWrapper.swift; sourceTree = "<group>"; };
 		FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 		FA9EA0DC28FC212300279458 /* PopoverWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverWindow.swift; sourceTree = "<group>"; };
+		FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetInthePost.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,15 @@
 			path = Grids;
 			sourceTree = "<group>";
 		};
+		FA9EA0DE28FC2E1F00279458 /* ActionSheet Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				FACB3CB428F6C57400D84139 /* Alerts.swift */,
+				FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */,
+			);
+			path = "ActionSheet Alerts";
+			sourceTree = "<group>";
+		};
 		FAB8B1EF28F2C5E800D0839B = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +224,7 @@
 			children = (
 				FA9EA0D328FB02E600279458 /* Grids */,
 				FACB3CAE28F5CD8300D84139 /* TestTabView.swift */,
-				FACB3CB428F6C57400D84139 /* Alerts.swift */,
+				FA9EA0DE28FC2E1F00279458 /* ActionSheet Alerts */,
 				FA5671D428F98DED00A6B18F /* TestView.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
 				FA9EA0D628FB13AA00279458 /* CustomButton.swift */,
@@ -346,6 +357,7 @@
 				FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */,
 				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
 				FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */,
+				FA9EA0E028FC2E4300279458 /* ActionSheetInthePost.swift in Sources */,
 				FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */,
 				FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
