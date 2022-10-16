@@ -19,6 +19,8 @@
 		FA9EA0D228FB015500279458 /* ScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D128FB015500279458 /* ScrollViewTest.swift */; };
 		FA9EA0D528FB038100279458 /* LazyGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D428FB038100279458 /* LazyGrids.swift */; };
 		FA9EA0D728FB13AA00279458 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D628FB13AA00279458 /* CustomButton.swift */; };
+		FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */; };
+		FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		FA9EA0D128FB015500279458 /* ScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest.swift; sourceTree = "<group>"; };
 		FA9EA0D428FB038100279458 /* LazyGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids.swift; sourceTree = "<group>"; };
 		FA9EA0D628FB13AA00279458 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWrapper.swift; sourceTree = "<group>"; };
+		FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5671D728F99F7700A6B18F /* SwiftUIView.swift */,
+				FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				FA9EA0C928F9BB1700279458 /* ColorsUsage */,
 				FACB3CBC28F6F56A00D84139 /* Observed Published Objects */,
 				FA5671CB28F8132300A6B18F /* UserDefaults */,
+				FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */,
 				FACB3CC128F6F82B00D84139 /* Navigation */,
 				FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */,
 				FAB8B20128F2C5EA00D0839B /* Preview Content */,
@@ -336,6 +342,7 @@
 				FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */,
 				FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */,
 				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
+				FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */,
 				FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */,
 				FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
@@ -343,6 +350,7 @@
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
 				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
 				FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */,
+				FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */,
 				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
 				FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */,
