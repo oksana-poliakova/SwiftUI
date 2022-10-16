@@ -15,27 +15,19 @@ struct ContextMenuTest: View {
             .cornerRadius(16)
             .frame(width: 350, height: 250)
             .padding()
-            .contextMenu {
-                VStack {
-                    Button(action: {
-                        print("Copy")
-                    }) {
-                        HStack {
-                            Image(systemName: "doc.on.doc")
-                            Text("Copy")
-                        }
-                    }
+            .contextMenu(menuItems: {
+                Button(action: {
                     
-                    Button(action: {
-                        print("Share")
-                    }) {
-                        HStack {
-                            Image(systemName: "square.and.arrow.up")
-                            Text("Share")
-                        }
-                    }
-                }
-            }
+                }, label: {
+                    Label("Copy", systemImage: "doc.on.doc")
+                })
+                
+                Button(action: {
+                    
+                }, label: {
+                    Label("Share", systemImage: "square.and.arrow.up")
+                })
+            })
     }
 }
 
