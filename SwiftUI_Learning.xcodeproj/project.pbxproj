@@ -23,6 +23,7 @@
 		FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */; };
 		FA9EA0DD28FC212300279458 /* PopoverWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DC28FC212300279458 /* PopoverWindow.swift */; };
 		FA9EA0E028FC2E4300279458 /* ActionSheetInthePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */; };
+		FA9EA0E228FC431D00279458 /* TextEditorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0E128FC431D00279458 /* TextEditorTest.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		FA9EA0DA28FC1C4900279458 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 		FA9EA0DC28FC212300279458 /* PopoverWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverWindow.swift; sourceTree = "<group>"; };
 		FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetInthePost.swift; sourceTree = "<group>"; };
+		FA9EA0E128FC431D00279458 /* TextEditorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorTest.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
 				FACB3CA828F482C800D84139 /* DynamicListView.swift */,
 				FAB8B20D28F2D68800D0839B /* TextView.swift */,
+				FA9EA0E128FC431D00279458 /* TextEditorTest.swift */,
 				FA9EA0DC28FC212300279458 /* PopoverWindow.swift */,
 				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
 				FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */,
@@ -365,6 +368,7 @@
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
 				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
 				FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */,
+				FA9EA0E228FC431D00279458 /* TextEditorTest.swift in Sources */,
 				FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */,
 				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
