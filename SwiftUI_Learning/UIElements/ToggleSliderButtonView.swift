@@ -25,7 +25,9 @@ struct ToggleSliderButtonView: View {
                 Text("Show Hello")
                     .foregroundColor(.blue)
                     .bold()
-            } .padding()
+            }
+            .toggleStyle(SwitchToggleStyle(tint: .blue))
+            .padding()
             
             if showHello {
                 Text("Hello everyone!")
@@ -41,7 +43,18 @@ struct ToggleSliderButtonView: View {
             
             // Slider
             let fahrenheit = (celsius * 9) / 5 + 32
-            Slider(value: $celsius, in: -100...100, step: 0.1)
+            
+            Slider(
+                value: $celsius,
+                in: -100...100,
+                step: 0.1,
+                minimumValueLabel: Text("0"),
+                maximumValueLabel: Text("100"),
+                label: {
+                    Text("Title")
+                })
+            .padding()
+        
             Text("\(celsius) Celsius is \(fahrenheit) Fahrenheit")
             
             Spacer()
