@@ -25,6 +25,7 @@
 		FA9EA0E028FC2E4300279458 /* ActionSheetInthePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */; };
 		FA9EA0E228FC431D00279458 /* TextEditorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0E128FC431D00279458 /* TextEditorTest.swift */; };
 		FA9EA0E428FC489C00279458 /* ColorPickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0E328FC489C00279458 /* ColorPickerTest.swift */; };
+		FA9EA0E628FD7BEC00279458 /* DatePickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0E528FD7BEC00279458 /* DatePickerTest.swift */; };
 		FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */; };
 		FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8B1FD28F2C5E800D0839B /* StacksView.swift */; };
 		FAB8B20028F2C5EA00D0839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 		FA9EA0DF28FC2E4300279458 /* ActionSheetInthePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetInthePost.swift; sourceTree = "<group>"; };
 		FA9EA0E128FC431D00279458 /* TextEditorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorTest.swift; sourceTree = "<group>"; };
 		FA9EA0E328FC489C00279458 /* ColorPickerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerTest.swift; sourceTree = "<group>"; };
+		FA9EA0E528FD7BEC00279458 /* DatePickerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTest.swift; sourceTree = "<group>"; };
 		FAB8B1F828F2C5E800D0839B /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8B1FB28F2C5E800D0839B /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		FAB8B1FD28F2C5E800D0839B /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				FA5671D428F98DED00A6B18F /* TestView.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
 				FA9EA0D628FB13AA00279458 /* CustomButton.swift */,
+				FA9EA0E528FD7BEC00279458 /* DatePickerTest.swift */,
 				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
 				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
 				FACB3CA828F482C800D84139 /* DynamicListView.swift */,
@@ -370,6 +373,7 @@
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
 				FACB3CA528F4780000D84139 /* GestureView.swift in Sources */,
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
+				FA9EA0E628FD7BEC00279458 /* DatePickerTest.swift in Sources */,
 				FAB8B20E28F2D68800D0839B /* TextView.swift in Sources */,
 				FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */,
 				FA9EA0E228FC431D00279458 /* TextEditorTest.swift in Sources */,
