@@ -10,10 +10,17 @@ import SwiftUI
 struct TestTabView: View {
     
     /// binding tab with the screen
-    @State private var selectedView = 1
+    @State private var selectedTab: Int = 1
     
     var body: some View {
-        TabView(selection: $selectedView) {
+        TabView(selection: $selectedTab) {
+            
+            HomeView(selectedTab: $selectedTab)
+                .tabItem{
+                    Image(systemName: "house.fill")
+                    Text("First Tab")
+                } .tag(0)
+            
             Text("First screen")
                 .tabItem {
                     Image(systemName: "tortoise.fill")
@@ -26,6 +33,33 @@ struct TestTabView: View {
                     Text("Second Tab")
                 } .tag(2)
         }
+        .accentColor(.green)
+    }
+}
+
+struct HomeView: View {
+    
+    @Binding var selectedTab: Int
+    
+    var body: some View {
+        ZStack {
+            Color.gray.ignoresSafeArea()
+            VStack {
+                Text("Home Tab")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                
+                Button(action: {
+                    selectedTab = 1
+                }, label: {
+                    Text("Go to First tab")
+                        .foregroundColor(.blue)
+                        .padding()
+                        .background(.white)
+                })
+                .cornerRadius(8)
+            }
+        }
     }
 }
 
@@ -34,3 +68,5 @@ struct TabView_Previews: PreviewProvider {
         TestTabView()
     }
 }
+
+
