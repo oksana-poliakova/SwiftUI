@@ -14,6 +14,7 @@
 		FA5671D828F99F7700A6B18F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D728F99F7700A6B18F /* SwiftUIView.swift */; };
 		FA9C5E5E28FD8B9C001B9BDE /* DocumentationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E5D28FD8B9C001B9BDE /* DocumentationExample.swift */; };
 		FA9C5E6028FD9FCE001B9BDE /* OnAppearTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E5F28FD9FCE001B9BDE /* OnAppearTest.swift */; };
+		FA9C5E6228FDA2EE001B9BDE /* ModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C5E6128FDA2EE001B9BDE /* ModelTest.swift */; };
 		FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */; };
 		FA9EA0C828F9B3BB00279458 /* ContextMenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0C728F9B3BB00279458 /* ContextMenuTest.swift */; };
 		FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA0CA28F9BB2600279458 /* ColorsUsage.swift */; };
@@ -61,6 +62,7 @@
 		FA5671D728F99F7700A6B18F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		FA9C5E5D28FD8B9C001B9BDE /* DocumentationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationExample.swift; sourceTree = "<group>"; };
 		FA9C5E5F28FD9FCE001B9BDE /* OnAppearTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearTest.swift; sourceTree = "<group>"; };
+		FA9C5E6128FDA2EE001B9BDE /* ModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTest.swift; sourceTree = "<group>"; };
 		FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStepperView.swift; sourceTree = "<group>"; };
 		FA9EA0C728F9B3BB00279458 /* ContextMenuTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuTest.swift; sourceTree = "<group>"; };
 		FA9EA0CA28F9BB2600279458 /* ColorsUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUsage.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				FA5671CB28F8132300A6B18F /* UserDefaults */,
 				FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */,
 				FA9C5E5F28FD9FCE001B9BDE /* OnAppearTest.swift */,
+				FA9C5E6128FDA2EE001B9BDE /* ModelTest.swift */,
 				FACB3CC128F6F82B00D84139 /* Navigation */,
 				FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */,
 				FAB8B20128F2C5EA00D0839B /* Preview Content */,
@@ -379,6 +382,7 @@
 				FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */,
 				FA9EA0E028FC2E4300279458 /* ActionSheetInthePost.swift in Sources */,
 				FA9EA0E828FD84FC00279458 /* DarkMode.swift in Sources */,
+				FA9C5E6228FDA2EE001B9BDE /* ModelTest.swift in Sources */,
 				FACB3CB328F5D92F00D84139 /* TipsCalculatorView.swift in Sources */,
 				FA9C5E6028FD9FCE001B9BDE /* OnAppearTest.swift in Sources */,
 				FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */,
