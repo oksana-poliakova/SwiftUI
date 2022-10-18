@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3E4BE528FEF734006B41EF /* BackgroundsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */; };
 		FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CC28F8133A00A6B18F /* ContentView.swift */; };
 		FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CE28F8171400A6B18F /* MyCostsApp.swift */; };
 		FA5671D328F8209400A6B18F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D228F8209400A6B18F /* AddView.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsTest.swift; sourceTree = "<group>"; };
 		FA5671CC28F8133A00A6B18F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5671CE28F8171400A6B18F /* MyCostsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCostsApp.swift; sourceTree = "<group>"; };
 		FA5671D228F8209400A6B18F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				FA5671D428F98DED00A6B18F /* TestView.swift */,
 				FACB3CA628F47DC500D84139 /* ListView.swift */,
 				FA9EA0D628FB13AA00279458 /* CustomButton.swift */,
+				FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */,
 				FA9EA0E528FD7BEC00279458 /* DatePickerTest.swift */,
 				FACB3CB028F5D25200D84139 /* TestFormView.swift */,
 				FACB3CB228F5D92F00D84139 /* TipsCalculatorView.swift */,
@@ -435,6 +438,7 @@
 				FA9EA0E228FC431D00279458 /* TextEditorTest.swift in Sources */,
 				FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */,
 				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
+				FA3E4BE528FEF734006B41EF /* BackgroundsTest.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
 				FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */,
 				FACB3CBB28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift in Sources */,
