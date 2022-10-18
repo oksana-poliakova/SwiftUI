@@ -21,6 +21,7 @@ struct ListWithSections: View {
             Section(header: Text("Important Tasks"),
                     footer: Text("End of the List")) {
                 TaskRaw()
+                    .badge("NEW!!!")
                 TaskRaw()
                 TaskRaw()
                 TaskRaw()

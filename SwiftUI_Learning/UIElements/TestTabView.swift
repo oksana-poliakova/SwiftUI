@@ -19,19 +19,24 @@ struct TestTabView: View {
                 .tabItem{
                     Image(systemName: "house.fill")
                     Text("First Tab")
-                } .tag(0)
+                }
+                .tag(0)
             
             Text("First screen")
                 .tabItem {
                     Image(systemName: "tortoise.fill")
                     Text("First Tab")
-                } .tag(1)
+                }
+                .tag(1)
+                .badge("New")
             
             Text("Second screen")
                 .tabItem {
                     Image(systemName: "ladybug.fill")
                     Text("Second Tab")
-                } .tag(2)
+                }
+                .tag(2)
+                .badge(5)
         }
         .accentColor(.green)
     }

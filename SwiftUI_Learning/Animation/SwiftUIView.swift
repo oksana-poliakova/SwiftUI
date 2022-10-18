@@ -24,7 +24,11 @@ struct SwiftUIView: View {
                     .scaleEffect(scale)
                     .animation(.linear(duration: 0.3), value: 3)
                     .rotationEffect(.degrees(angle))
-            } .padding()
+            }
+            .padding()
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+            .buttonBorderShape(.capsule)
             
             // Interpolating spring
             Button(action: {

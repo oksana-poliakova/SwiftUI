@@ -32,6 +32,7 @@ struct TestView: View {
                 .cornerRadius(8)
                 .offset(x: 70, y: 320)
                 .rotationEffect(.degrees(10))
+                .textSelection(.enabled)
             
             // Circle
             Circle()

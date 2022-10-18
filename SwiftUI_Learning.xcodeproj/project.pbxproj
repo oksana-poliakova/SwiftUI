@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FA3E4BE528FEF734006B41EF /* BackgroundsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */; };
+		FA3E4BE928FF0099006B41EF /* CustomizingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */; };
+		FA3E4BEB28FF034B006B41EF /* CustomListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */; };
 		FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CC28F8133A00A6B18F /* ContentView.swift */; };
 		FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CE28F8171400A6B18F /* MyCostsApp.swift */; };
 		FA5671D328F8209400A6B18F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D228F8209400A6B18F /* AddView.swift */; };
@@ -61,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsTest.swift; sourceTree = "<group>"; };
+		FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingKeyboard.swift; sourceTree = "<group>"; };
+		FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListSwipeActions.swift; sourceTree = "<group>"; };
 		FA5671CC28F8133A00A6B18F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5671CE28F8171400A6B18F /* MyCostsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCostsApp.swift; sourceTree = "<group>"; };
 		FA5671D228F8209400A6B18F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -124,6 +128,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3E4BE628FEFDE8006B41EF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA0E728FD84FC00279458 /* DarkMode.swift */,
+				FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */,
+				FA9C5E5D28FD8B9C001B9BDE /* DocumentationExample.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FA3E4BE728FEFE13006B41EF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FA9C5E7C28FEE7A3001B9BDE /* AsyncImageTest.swift */,
+				FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		FA5671CB28F8132300A6B18F /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,14 +264,13 @@
 				FA5671D628F99E3B00A6B18F /* Animation */,
 				FA9EA0CC28F9C55B00279458 /* Inits and Enums */,
 				FACB3CC028F6F80900D84139 /* PracticalTasks */,
-				FA9EA0E728FD84FC00279458 /* DarkMode.swift */,
-				FA9C5E5D28FD8B9C001B9BDE /* DocumentationExample.swift */,
+				FA3E4BE628FEFDE8006B41EF /* Features */,
 				FA9EA0C928F9BB1700279458 /* ColorsUsage */,
 				FACB3CBC28F6F56A00D84139 /* Observed Published Objects */,
 				FA5671CB28F8132300A6B18F /* UserDefaults */,
 				FA9EA0D828FB1CC000279458 /* BindingWrapper.swift */,
-				FA9C5E7C28FEE7A3001B9BDE /* AsyncImageTest.swift */,
 				FA9C5E5F28FD9FCE001B9BDE /* OnAppearTest.swift */,
+				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
 				FA9C5E6128FDA2EE001B9BDE /* ModelTest.swift */,
 				FACB3CC128F6F82B00D84139 /* Navigation */,
 				FAB8B1FF28F2C5EA00D0839B /* Assets.xcassets */,
@@ -296,9 +318,9 @@
 				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
 				FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */,
 				FAB8B1FD28F2C5E800D0839B /* StacksView.swift */,
+				FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */,
 				FA9EA0D128FB015500279458 /* ScrollViewTest.swift */,
-				FACB3CB828F6DC5E00D84139 /* TestModifiers.swift */,
-				FAB8B20F28F2DC8400D0839B /* ImagesGradientsView.swift */,
+				FA3E4BE728FEFE13006B41EF /* Image */,
 				FAB8B21128F2E82400D0839B /* ToggleSliderButtonView.swift */,
 				FACB3CA428F4780000D84139 /* GestureView.swift */,
 				FA9D37B328F30B9400FA73D6 /* PickerStepperView.swift */,
@@ -414,6 +436,7 @@
 				FACB3CB928F6DC5E00D84139 /* TestModifiers.swift in Sources */,
 				FAB8B1FE28F2C5E800D0839B /* StacksView.swift in Sources */,
 				FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */,
+				FA3E4BE928FF0099006B41EF /* CustomizingKeyboard.swift in Sources */,
 				FACB3CAD28F485AB00D84139 /* TestNavigationView.swift in Sources */,
 				FA9D37B428F30B9400FA73D6 /* PickerStepperView.swift in Sources */,
 				FA9C5E5E28FD8B9C001B9BDE /* DocumentationExample.swift in Sources */,
@@ -429,6 +452,7 @@
 				FA9C5E7D28FEE7A3001B9BDE /* AsyncImageTest.swift in Sources */,
 				FA9C5E7B28FEDBBA001B9BDE /* AppStorageTest.swift in Sources */,
 				FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */,
+				FA3E4BEB28FF034B006B41EF /* CustomListSwipeActions.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
 				FACB3CA528F4780000D84139 /* GestureView.swift in Sources */,
 				FAB8B21228F2E82400D0839B /* ToggleSliderButtonView.swift in Sources */,
