@@ -10,6 +10,7 @@
 		FA3E4BE528FEF734006B41EF /* BackgroundsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */; };
 		FA3E4BE928FF0099006B41EF /* CustomizingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */; };
 		FA3E4BEB28FF034B006B41EF /* CustomListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */; };
+		FA3E4BED28FFEAEE006B41EF /* FocusStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BEC28FFEAEE006B41EF /* FocusStateTest.swift */; };
 		FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CC28F8133A00A6B18F /* ContentView.swift */; };
 		FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CE28F8171400A6B18F /* MyCostsApp.swift */; };
 		FA5671D328F8209400A6B18F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D228F8209400A6B18F /* AddView.swift */; };
@@ -65,6 +66,7 @@
 		FA3E4BE428FEF734006B41EF /* BackgroundsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsTest.swift; sourceTree = "<group>"; };
 		FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingKeyboard.swift; sourceTree = "<group>"; };
 		FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListSwipeActions.swift; sourceTree = "<group>"; };
+		FA3E4BEC28FFEAEE006B41EF /* FocusStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateTest.swift; sourceTree = "<group>"; };
 		FA5671CC28F8133A00A6B18F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5671CE28F8171400A6B18F /* MyCostsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCostsApp.swift; sourceTree = "<group>"; };
 		FA5671D228F8209400A6B18F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				FAB8B20D28F2D68800D0839B /* TextView.swift */,
 				FA9EA0E128FC431D00279458 /* TextEditorTest.swift */,
 				FA9EA0E328FC489C00279458 /* ColorPickerTest.swift */,
+				FA3E4BEC28FFEAEE006B41EF /* FocusStateTest.swift */,
 				FA9EA0DC28FC212300279458 /* PopoverWindow.swift */,
 				FACB3CAA28F483B800D84139 /* ListWithSections.swift */,
 				FACB3CAC28F485AB00D84139 /* TestNavigationView.swift */,
@@ -463,6 +466,7 @@
 				FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */,
 				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
 				FA3E4BE528FEF734006B41EF /* BackgroundsTest.swift in Sources */,
+				FA3E4BED28FFEAEE006B41EF /* FocusStateTest.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
 				FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */,
 				FACB3CBB28F6F2F900D84139 /* ObservedPublishedEnvironmentObjects.swift in Sources */,
