@@ -11,6 +11,9 @@
 		FA3E4BE928FF0099006B41EF /* CustomizingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */; };
 		FA3E4BEB28FF034B006B41EF /* CustomListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */; };
 		FA3E4BED28FFEAEE006B41EF /* FocusStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BEC28FFEAEE006B41EF /* FocusStateTest.swift */; };
+		FA3E4BF028FFF150006B41EF /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BEF28FFF150006B41EF /* IntroView.swift */; };
+		FA3E4BF228FFF313006B41EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BF128FFF313006B41EF /* OnboardingView.swift */; };
+		FA3E4BF429003D6C006B41EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E4BF329003D6C006B41EF /* ProfileView.swift */; };
 		FA5671CD28F8133A00A6B18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CC28F8133A00A6B18F /* ContentView.swift */; };
 		FA5671CF28F8171400A6B18F /* MyCostsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671CE28F8171400A6B18F /* MyCostsApp.swift */; };
 		FA5671D328F8209400A6B18F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5671D228F8209400A6B18F /* AddView.swift */; };
@@ -67,6 +70,9 @@
 		FA3E4BE828FF0099006B41EF /* CustomizingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingKeyboard.swift; sourceTree = "<group>"; };
 		FA3E4BEA28FF034B006B41EF /* CustomListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListSwipeActions.swift; sourceTree = "<group>"; };
 		FA3E4BEC28FFEAEE006B41EF /* FocusStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateTest.swift; sourceTree = "<group>"; };
+		FA3E4BEF28FFF150006B41EF /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		FA3E4BF128FFF313006B41EF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FA3E4BF329003D6C006B41EF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FA5671CC28F8133A00A6B18F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5671CE28F8171400A6B18F /* MyCostsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCostsApp.swift; sourceTree = "<group>"; };
 		FA5671D228F8209400A6B18F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -149,9 +155,20 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		FA3E4BEE28FFF087006B41EF /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E4BEF28FFF150006B41EF /* IntroView.swift */,
+				FA3E4BF329003D6C006B41EF /* ProfileView.swift */,
+				FA3E4BF128FFF313006B41EF /* OnboardingView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
 		FA5671CB28F8132300A6B18F /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				FA3E4BEE28FFF087006B41EF /* OnboardingViews */,
 				FA5671CC28F8133A00A6B18F /* ContentView.swift */,
 				FA9C5E7A28FEDBBA001B9BDE /* AppStorageTest.swift */,
 			);
@@ -445,6 +462,7 @@
 				FA9C5E5E28FD8B9C001B9BDE /* DocumentationExample.swift in Sources */,
 				FA9C5E6628FDA8B0001B9BDE /* ViewModel.swift in Sources */,
 				FA9EA0E428FC489C00279458 /* ColorPickerTest.swift in Sources */,
+				FA3E4BF028FFF150006B41EF /* IntroView.swift in Sources */,
 				FA9EA0DB28FC1C4900279458 /* AnimationTransition.swift in Sources */,
 				FA9EA0E028FC2E4300279458 /* ActionSheetInthePost.swift in Sources */,
 				FA9C5E6B28FE921D001B9BDE /* EnvironmentObjectTest.swift in Sources */,
@@ -455,6 +473,7 @@
 				FA9C5E7D28FEE7A3001B9BDE /* AsyncImageTest.swift in Sources */,
 				FA9C5E7B28FEDBBA001B9BDE /* AppStorageTest.swift in Sources */,
 				FACB3CCC28F710E300D84139 /* NavigationSheet.swift in Sources */,
+				FA3E4BF429003D6C006B41EF /* ProfileView.swift in Sources */,
 				FA3E4BEB28FF034B006B41EF /* CustomListSwipeActions.swift in Sources */,
 				FAB8B1FC28F2C5E800D0839B /* SwiftUI_LearningApp.swift in Sources */,
 				FACB3CA528F4780000D84139 /* GestureView.swift in Sources */,
@@ -466,6 +485,7 @@
 				FA9EA0D928FB1CC000279458 /* BindingWrapper.swift in Sources */,
 				FACB3CB728F6CD8000D84139 /* FlagQuizGame.swift in Sources */,
 				FA3E4BE528FEF734006B41EF /* BackgroundsTest.swift in Sources */,
+				FA3E4BF228FFF313006B41EF /* OnboardingView.swift in Sources */,
 				FA3E4BED28FFEAEE006B41EF /* FocusStateTest.swift in Sources */,
 				FACB3CAB28F483B800D84139 /* ListWithSections.swift in Sources */,
 				FA9EA0CB28F9BB2600279458 /* ColorsUsage.swift in Sources */,

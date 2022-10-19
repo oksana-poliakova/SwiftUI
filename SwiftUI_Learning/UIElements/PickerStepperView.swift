@@ -25,6 +25,7 @@ struct PickerStepperView: View {
             // Picker
             Picker("Choose a color", selection: $selectedColor, content: {
                 Text("Choose a color")
+                    .foregroundColor(.blue)
                 ForEach(0..<colors.count) {
                     Text(self.colors[$0])
                 }
