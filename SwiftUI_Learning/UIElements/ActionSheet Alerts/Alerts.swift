@@ -13,11 +13,29 @@ struct Alerts: View {
     
     @State private var showingAlert = false
     @State private var showingActionSheet = false
+    @State private var showingCheckErrorAlert = false
+        
+    // MARK: - Methods
+    
+    fileprivate func checkForErrorAlert() -> some View {
+        return // MARK: - Check error
+        Button("Check error") {
+            showingCheckErrorAlert = true
+        }.alert(isPresented: $showingCheckErrorAlert) {
+            Alert(title: Text("Would you like to check all errors?"),
+                  message: Text("You'll check all errors when you click on the button"),
+                  primaryButton: .destructive(Text("Check")) {
+                print("Checking...")
+            }, secondaryButton: .cancel())
+        } .padding(.top, 30)
+    }
     
     // MARK: - Body
     
     var body: some View {
         VStack {
+            // MARK: - Show alert
+            
             Button("Show alert") {
                 showingAlert = true
             } .alert(isPresented: $showingAlert) {
@@ -26,7 +44,9 @@ struct Alerts: View {
                       primaryButton: .destructive(Text("Delete")) {
                         print("Deleting...")
                 },    secondaryButton: .cancel())
-            } .padding(.bottom, 50)
+            } .padding(.bottom, 30)
+            
+            // MARK: - Show action sheet
             
             Button("Show Action Sheet") {
                 showingActionSheet = true
@@ -37,6 +57,8 @@ struct Alerts: View {
                                       .cancel(),
                                       .destructive(Text("Delete"))])
             }
+            
+            checkForErrorAlert()
         }
     }
 }

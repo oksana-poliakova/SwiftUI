@@ -8,26 +8,30 @@
 import SwiftUI
 
 struct ContextMenuTest: View {
+    
+    // MARK: - Properties
+    
+    @State private var showContextMenuToggle = false
+
+    // MARK: - Body
+    
     var body: some View {
-        Image("switzerland")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .cornerRadius(16)
-            .frame(width: 350, height: 250)
+        VStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(showContextMenuToggle ? .yellow : .white)
+                Text(showContextMenuToggle ? "Context menu" : "")
+            }
+            .animation(.spring(response: 0.3).speed(0.5), value: showContextMenuToggle)
+            
+            Toggle(isOn: $showContextMenuToggle) {
+                Text("Show context menu")
+                    .foregroundColor(.blue)
+                    .bold()
+            }
+            .toggleStyle(SwitchToggleStyle(tint: .blue))
             .padding()
-            .contextMenu(menuItems: {
-                Button(action: {
-                    
-                }, label: {
-                    Label("Copy", systemImage: "doc.on.doc")
-                })
-                
-                Button(action: {
-                    
-                }, label: {
-                    Label("Share", systemImage: "square.and.arrow.up")
-                })
-            })
+        }
     }
 }
 
